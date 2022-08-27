@@ -1,0 +1,64 @@
+.container {
+    border-radius: 0.3em;
+    background-color:#fff;
+    
+    width: 100%;
+    height: 40vh;
+    overflow: scroll;
+}
+.expend {
+    font-size: 23px;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    font-weight: 600;
+}
+.list {
+    list-style-type: none;
+    padding-left: 0;
+    padding: 0.3em;
+}
+.list li {
+    border-radius: 0.3em;
+    padding: 0.3em;
+    margin: 0.3em;
+}
+.name_and_price {
+    font-weight: 600;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    margin-bottom: 0.2em;
+    background-color: #fff58d;
+    border: 2px solid #000;
+    letter-spacing: 2px;
+    /* border-top: 2px solid #000; */
+}
+.price {
+    font-size: 20px;
+    color: rgb(244, 130, 130);
+}
+.descr {
+    display: flex;
+    align-items: flex-start;
+    color: #7c8396;
+    font-weight: 600;
+    background-color: rgb(239, 238, 238);
+    border: 2px solid #000;
+    padding: 0.5em;
+    overflow: scroll;
+}
+.toggle_button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    background-color: #f8927a;
+    border: 2px solid #000;
+    padding: 0.4em 1.5em;
+    cursor: pointer;
+    color: #000;
+    transition: 0.2s;
+}

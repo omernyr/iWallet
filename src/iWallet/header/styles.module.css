@@ -1,0 +1,16 @@
+.header {
+    align-items: center;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    letter-spacing: 3px;
+}
+.header_photo {
+    object-fit: cover;
+    width: 9%;
+    height: 9%;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 0, 0); 
+}

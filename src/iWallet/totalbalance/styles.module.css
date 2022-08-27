@@ -1,0 +1,9 @@
+.price {
+    color: rgb(0, 0, 0);
+    line-height:0;
+    margin-top:1em;
+    font-size: 25px;
+}
+.red {
+    color: rgb(238, 47, 47);
+}

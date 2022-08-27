@@ -1,0 +1,44 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.3em;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.form>input,
+.form_button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.form>input {
+    margin: 0 0.2em;
+    border: 2px solid #000;
+    padding: 0.9em 0.67em;
+    font-size: 15px;
+    width: 100%;
+    transition: 0.3s;
+    background-color: #c4e7ff;
+}
+
+input:hover {
+    background-color: #fee4fd;
+}
+.form_button {
+    background-color: #f8927a;
+    border: 2px solid #000;
+    padding: 0.4em 1.5em;
+    cursor: pointer;
+    color: #000;
+    transition: 0.2s;
+}
+
+
+.form_button:hover {
+    transform: rotate(10deg);
+    background-color: #000;
+    color: #fff;
+
+}
